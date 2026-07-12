@@ -1,0 +1,15 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: api.creativecommons.engineering
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Sep 10 23:53:41 2026 GMT
+  hsts: false
+domains:
+- domain: creativecommons.engineering
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
