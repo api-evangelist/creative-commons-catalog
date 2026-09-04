@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://api.creativecommons.engineering/', status: 301, note: 'declared website redirects to https://api.openverse.org/v1/ — a different registrable domain (creativecommons.engineering -> openverse.org), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/creative-commons-catalog.png
 name: Creative Commons Catalog
 description: "Search among openly licensed and public domain works"
